@@ -1,0 +1,108 @@
+/* --------------------- A PROPOS --------------------- */
+
+.headerAproposBG {
+    background-image: linear-gradient(0deg, rgba(255,255,255,.5) 0%, rgba(255,255,255,0.5) 100%),url('../Images/Apropos.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.divPhoto {
+    width: 210px;
+}
+
+.nameP {
+    font-size: 20px;
+}
+
+.imgInfos {
+    width: 200px;
+    margin: auto !important;
+    display: flex;
+}
+
+.h3Apropos {
+    font-family: var(--font-hand);
+}
+
+/* ---------------------- MENTION LEGALES -------------------- */
+
+.headerMentionsBG {
+    background-image: linear-gradient(0deg, rgba(255,255,255,.7) 0%, rgba(255,255,255,0.7) 100%),url('../Images/mentionsLegales.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.mentionsDiv {
+    background-image: url("../Images/twoCircles.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.btnCgv {
+    background-color: var(--white);
+    color: var(--blue-green) !important;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 6px;
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.38);
+    transition: all 0.2s ease-in-out;
+}
+
+.btnCgv:hover {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.38);
+    color: var(--white) !important;
+    background-color: var(--blue-green);
+    border: 1px white solid;
+}
+
+/* --------------------- TESTEZ - VOUS ----------------------- */
+
+.headerTestezVous {
+    background-image: linear-gradient(0deg, rgba(255,255,255,.5) 0%, rgba(255,255,255,0.5) 100%),url('../Images/testezVous.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.greenBG {
+    background-color: var(--blue-green);
+}
+
+/* ---------------------- MEDIA QUERIES ------------------ */
+
+@media (max-width: 992px) {
+
+    .divPhoto {
+        width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .AproposRow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AproposRowR {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .AproposRowR img {
+        margin-bottom: 20px;
+    }
+
+    .AproposRow img {
+        margin-bottom: 20px;
+    }
+
+    .intervenantRow {
+        flex-direction: column-reverse;
+    }
+}

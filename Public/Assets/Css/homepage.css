@@ -1,0 +1,406 @@
+/* --------------------- ACCUEIL HEADER --------------------- */
+
+.headerBG {
+    background-image: url("../Images/headerBG.png");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.logoHeader {
+    width: 20%;
+    min-width: 110px;
+}
+
+.sanhyTitle {
+    font-size: 16px;
+    color: var(--font-grey);
+    /* line-height: 44px; */
+}
+
+.headerH1 {
+    font-size: var(--font-size-header);
+}
+
+.sanhyUnderTitle {
+    color: var(--blue-green);
+    font-size: 10px;
+}
+
+.divImgHeader {
+    background-image: url("../Images/imgHeaderSquareV2.jpg");
+    background-size: cover;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.38) inset;
+}
+
+.btnHeader {
+    background-color: var(--blue-green);
+    color: var(--white) !important;
+    border: 2px var(--white) solid;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    font-size: 12px;
+    margin-top: 6px;
+    box-shadow: 4px 6px 6px 0px rgba(0,0,0,0.38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+}
+.btnHeader:hover {
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.38);
+    transform: translateY(4px);
+}
+.btnHeader:hover:active {
+    transition: all .0s ease;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0);
+    transform: translateY(5px);
+}
+
+.btnResponsive {
+    display: none !important;
+}
+
+.underHeader {
+    background-image: url("../Images/UnderHeaderBG.jpg");
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height: 160px;
+    margin-top: -1px;
+}
+
+/* --------------------- SECTION 1 "BIENVENUE..." --------------------- */
+
+.section1BG {
+    background-image: url("../Images/section1BG.png");
+    background-size: 100% 620px;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.section1BGv2 {
+    display: none;
+}
+
+.section1H3 {
+    color: var(--white);
+    font-family: var(--font-hand);
+    font-size: 24px;
+}
+
+.section1DivP {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.section1P {
+    color: var(--white);
+    font-size: 14px;
+}
+
+.btnSection1 {
+    background-color: var(--blue-green);
+    color: var(--white) !important;
+    border: 1px var(--white) solid;
+    font-size: 14px;
+    margin-top: 6px;
+    box-shadow: 4px 6px 6px 0px rgba(0,0,0,0.38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+.btnSection1:hover {
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.38);
+    transform: translateY(2px);
+}
+.btnSection1:hover:active {
+    transition: all .0s ease;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0);
+    transform: translateY(3px);
+}
+
+.imgSection1 {
+    border-radius: 50% 0 50% 50%;
+    width: 100%;
+    min-width: 80px;
+    margin-left: -25px !important;
+}
+
+/* --------------------- SECTION 2 "SECTEURS..." --------------------- */
+
+.cardSection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgSection2 {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.38);
+    transition: all .5s ease;
+}
+.img1 {
+    width: 230px;
+    height: 230px;
+}
+
+.imgSection2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 12px 6px var(--light-blue);
+}
+
+.section2H3 {
+    color: var(--font-grey);
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* --------------------- SECTION 3 "NOS MODALITES" --------------------- */
+
+.section3BG {
+    background-color: var(--blue-green);
+}
+
+.iconDiv {
+    border: 4px var(--white) solid;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconPng {
+    width: 70px;
+    height: auto;
+}
+
+/* --------------------- SECTION 4 "AVEZ-VOUS..." --------------------- */
+
+.section4BG {
+    background-image: url("../Images/oneCircle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgElearning {
+    width: 100%;
+}
+
+/* --------------------- SECTION 5 "POURQUOI NOUS..." --------------------- */
+
+.section5BG {
+    background-image: url("../Images/twoCircles.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.iconPedaDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.iconPeda {
+    width: 180px;
+    color: var(--blue-green);
+}
+
+.PPeda {
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p99 {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+/* --------------------- CAROUSEL ----------------------- */
+
+.divCarou {
+    height: 300px;
+}
+
+/* .carousel-item {
+    height: 500px;
+} */
+
+/* #carouselExempleDark {
+    height: 500px;
+} */
+
+.testCarou {
+    width: 60%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+/* --------------------- MEDIA QUERIES --------------------- */
+
+@media (max-width: 1600px) {
+
+    .section5BG {
+        background-size: contain;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .headerBG {
+        background-image: url("../Images/headerBG.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+    }
+
+    .underHeader {
+        background-image: url("../Images/UnderHeaderBG.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 190px;
+        margin-top: -1px;
+    }
+
+    .btnInitial {
+        display: none !important;
+    }
+
+    .btnResponsive {
+        display: inherit !important;
+        padding: 0;
+    }
+    .headerBG {
+        padding: 7px 0 15px 0 !important;
+    }
+
+    .headerH1 {
+        margin: 0 !important;
+    }
+
+    .sanhyFormation {
+        margin-bottom: 15px !important;
+    }
+
+    .fullTitle {
+        margin-bottom: 10px !important;
+    }
+
+    .section1BG {
+        display: none;
+    }
+
+    .section1BGv2 {
+        display: inherit !important;
+        background-color: var(--blue-green);
+        /* background-image: linear-gradient(0deg, #188c8cd5 0%, #188c8cd7 100%),url('../images/HACCP_agreable.jpg');
+        background-repeat: no-repeat;
+        background-position: center; */
+    }
+
+    .imgSection1 {
+        display: none;
+    }
+
+    .section3PE {
+        padding: 0 !important;
+    }
+
+    .section3PS {
+        padding: 0 !important;
+    }
+
+    .section5BG {
+        background-size: cover;
+    }
+
+    .testCarou {
+        width: 70%;
+        height: 220px;
+        padding: 0;
+    }
+
+    .testCarou .greyP {
+        font-size: 13px;
+    }
+    
+}
+
+
+@media (max-width: 600px) {
+
+    .headerBG {
+        padding: 15px 0 15px 0 !important;
+    }
+
+    .headerH1 {
+        font-size: 40px;
+        padding: 16px;
+    }
+
+    .sanhyFormation {
+        align-items: center !important;
+    }
+
+    .divImgHeader {
+        background-image: url("../Images/imgHeaderSquareV2.jpg");
+        background-size: cover;
+        background-position-y: -60px;
+        width: 100%;
+        height: 200px;
+        border-radius: 0;
+        padding: 0 !important;
+        box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.38) inset;
+    }
+
+    .underHeader {
+        background-image: url("../Images/UnderHeaderBG.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        height: 114px;
+        margin-top: -1px;
+    }
+
+    .btnHeader {
+        width: 90px;
+        height: 90px;
+    }
+
+    .pedaReverse {
+        flex-direction: column-reverse;
+    }
+
+    .peda {
+        flex-direction: column;
+    }
+
+    .PPeda {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .testCarou {
+        width: 80%;
+        height: 300px;
+    }
+}

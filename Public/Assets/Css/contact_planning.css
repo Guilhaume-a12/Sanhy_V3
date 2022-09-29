@@ -1,0 +1,344 @@
+/* --------------------- CONTACT --------------------- */
+
+.headerContactBG {
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%),url('../Images/contact.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+  /* height: 300px; */
+}
+
+.underHeaderContact {
+  background-image: url("../Images/UnderHeaderBG.jpg");
+  background-size: 100% 450px;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  height: 160px;
+  margin-top: -1px;
+}
+
+.contactP {
+  padding: 25px 0;
+}
+
+.contactFormBG {
+  /* background-color: var(--blue-green); */
+  border-radius: 4px;
+}
+
+.contactFormBG input,
+.contactFormBG textarea {
+  border-radius: 4px;
+  resize: none;
+  border: 1px var(--blue-green) solid;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputBG {
+    background-color: var(--blue-green);
+}
+
+.labelColor {
+    color: var(--white);
+}
+
+.inputBG:not([value=""]):not(:focus) {
+    background-color: white !important;
+}
+
+.btnContact {
+  background-color: var(--blue-green);
+  color: var(--white) !important;
+  border: 2px var(--white) solid;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  font-size: 12px;
+  margin-top: 6px;
+  box-shadow: 4px 6px 6px 0px rgba(0,0,0,0.38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s ease;
+}
+.btnContact:hover {
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.38);
+  transform: translateY(4px);
+}
+.btnContact:hover:active {
+  transition: all .0s ease;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0);
+  transform: translateY(5px);
+}
+
+.iconContact {
+  font-size: 60px;
+}
+
+.d1 {
+  height: 120px;
+}
+
+#load {
+  display: none;
+}
+
+#load {
+  position:relative;
+  width:500px;
+  height: 50px;
+  left:54%;
+  top:100%;
+  margin-left:-300px;
+  overflow:visible;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor:default;
+}
+
+#load div {
+  position:absolute;
+  width:20px;
+  height:66px;
+  opacity:0;
+  font-size: 24px;
+  font-family:Helvetica, Arial, sans-serif;
+  animation:move 2s linear infinite;
+  -o-animation:move 2s linear infinite;
+  -moz-animation:move 2s linear infinite;
+  -webkit-animation:move 2s linear infinite;
+  transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  color:var(--blue-green);
+}
+
+#load div:nth-child(2) {
+  animation-delay:0.2s;
+  -o-animation-delay:0.2s;
+  -moz-animation-delay:0.2s;
+  -webkit-animation-delay:0.2s;
+}
+#load div:nth-child(3) {
+  animation-delay:0.4s;
+  -o-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+}
+#load div:nth-child(4) {
+  animation-delay:0.6s;
+  -o-animation-delay:0.6s;
+  -moz-animation-delay:0.6s;
+  -webkit-animation-delay:0.6s;
+}
+#load div:nth-child(5) {
+  animation-delay:0.8s;
+  -o-animation-delay:0.8s;
+  -moz-animation-delay:0.8s;
+  -webkit-animation-delay:0.8s;
+}
+#load div:nth-child(6) {
+  animation-delay:1s;
+  -o-animation-delay:1s;
+  -moz-animation-delay:1s;
+  -webkit-animation-delay:1s;
+}
+#load div:nth-child(7) {
+  animation-delay:1.2s;
+  -o-animation-delay:1.2s;
+  -moz-animation-delay:1.2s;
+  -webkit-animation-delay:1.2s;
+}
+
+@keyframes move {
+  0% {
+    left:0;
+    opacity:0;
+  }
+	35% {
+		left: 41%; 
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg);
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-moz-transform:rotate(0deg); 
+		-webkit-transform:rotate(0deg); 
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	100% {
+		left:100%; 
+		-moz-transform:rotate(-180deg); 
+		-webkit-transform:rotate(-180deg); 
+		-o-transform:rotate(-180deg); 
+		transform:rotate(-180deg);
+		opacity:0;
+	}
+}
+
+@-moz-keyframes move {
+	0% {
+		left:0; 
+		opacity:0;
+	}
+	35% {
+		left:41%; 
+		-moz-transform:rotate(0deg); 
+		transform:rotate(0deg);
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-moz-transform:rotate(0deg); 
+		transform:rotate(0deg);
+		opacity:1;
+	}
+	100% {
+		left:100%; 
+		-moz-transform:rotate(-180deg); 
+		transform:rotate(-180deg);
+		opacity:0;
+	}
+}
+
+@-webkit-keyframes move {
+	0% {
+		left:0; 
+		opacity:0;
+	}
+	35% {
+		left:41%; 
+		-webkit-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-webkit-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	100% {
+		left:100%;
+		-webkit-transform:rotate(-180deg); 
+		transform:rotate(-180deg); 
+		opacity:0;
+	}
+}
+
+@-o-keyframes move {
+	0% {
+		left:0; 
+		opacity:0;
+	}
+	35% {
+		left:41%; 
+		-o-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-o-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	100% {
+		left:100%; 
+		-o-transform:rotate(-180deg); 
+		transform:rotate(-180deg); 
+		opacity:0;
+	}
+}
+
+/* --------------------- PLANNING --------------------- */
+
+.headerPlanningBG {
+  background-image: linear-gradient(0deg, rgba(255,255,255,.7) 0%, rgba(255,255,255,0.7) 100%),url('../Images/Photo-planning-rect.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  /* height: 300px; */
+}
+
+.planningDiv {
+  background-color: var(--blue-green);
+  border-radius: 10px;
+  min-height: 140px;
+}
+
+.planningDiv p {
+  color: var(--light-grey);
+}
+
+.btnPlanning {
+  background-color: var(--blue-green);
+  color: var(--white) !important;
+  border: 1px var(--white) solid;
+  border-radius: 10px;
+  font-size: 28px;
+  box-shadow: 4px 6px 6px 0px rgba(0,0,0,0.38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s ease;
+  width: 140px;
+  height: 65px;
+}
+
+.btnPlanning:hover {
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.38);
+  transform: translateY(2px);
+}
+.btnPlanning:hover:active {
+  transition: all .0s ease;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0);
+  transform: translateY(3px);
+}
+
+.cross:hover {
+  color: var(--font-grey);
+}
+
+.street {
+  font-weight: initial;
+  font-size: 18px;
+}
+
+/* --------------------- MEDIA QUERIES --------------------- */
+
+@media (max-width: 600px) {
+
+.underHeaderContact {
+    background-image: url("../Images/UnderHeaderBG.jpg");
+    background-size: 120% 420px;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height: 140px;
+    margin-top: -1px;
+}
+
+.contactP {
+    padding: 5px 0;
+}
+
+.h3Planning {
+  text-align: center;
+}
+
+}
+
